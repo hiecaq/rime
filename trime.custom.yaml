@@ -1,0 +1,61 @@
+patch:
+  "preset_keyboards/rime_ice/import_preset": dvorak
+  "preset_keyboards/dvorak":
+    name: "dvorak"
+    author: "hiecaq"
+    ascii_mode: 0
+    width: 10
+    height: 44
+    keys:
+      - {click: '7', long_click: '!'}
+      - {click: '5', long_click: '@'}
+      - {click: '3', long_click: '#'}
+      - {click: '1', long_click: '$'}
+      - {click: '9', long_click: '%'}
+      - {click: '0', long_click: '^'}
+      - {click: '2', long_click: '&'}
+      - {click: '4', long_click: '*'}
+      - {click: '6', long_click: '('}
+      - {click: '8', long_click: ')'}
+      # break
+      - {click: ';', long_click: ':'}
+      - {click: ',', long_click: '<'}
+      - {click: '.', long_click: '>'}
+      - {click: 'p', long_click: '='}
+      - {click: 'y', long_click: '|'}
+      - {click: 'f', long_click: '\'}
+      - {click: 'g', long_click: '['}
+      - {click: 'c', long_click: ']'}
+      - {click: 'r', long_click: '{'}
+      - {click: 'l', long_click: '}'}
+      # break
+      - {click: 'a', long_click: select_all }
+      - {click: 'o', long_click: Home}
+      - {click: 'e', long_click: End}
+      - {click: 'u', long_click: Page_Up}
+      - {click: 'i', long_click: Page_Down}
+      - {click: 'd', long_click: Left}
+      - {click: 'h', long_click: Down}
+      - {click: 't', long_click: Up}
+      - {click: 'n', long_click: Right}
+      - {click: 's', long_click: ':'}
+      # break
+      - {click: "'", long_click: '"'}
+      - {click: 'q', long_click: cut}
+      - {click: 'j', long_click: copy}
+      - {click: 'k', long_click: paste}
+      - {click: 'x', long_click: '~'}
+      - {click: 'b', long_click: Insert}
+      - {click: 'm', long_click: Delete}
+      - {click: 'w', long_click: '<'}
+      - {click: 'v', long_click: '>'}
+      - {click: 'z', long_click: '?'}
+      # break
+      - {click: Shift_L}
+      - {click: Keyboard_symbols, long_click: Keyboard_number}
+      - {click: Mode_switch, long_click: Menu}
+      - {click: space, width: 30}
+      - {click: "'", long_click: '"'}
+      - {click: BackSpace, width: 15}
+      - {click: Return, composing: Return1, long_click: CommitComment, width: 15}
+
