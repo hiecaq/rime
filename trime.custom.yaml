@@ -10,6 +10,14 @@
 #   - Ignore shift locked for Symbol keys
 
 patch:
+  color_scheme: dvorak
+  "preset_color_schemes/dvorak":
+    name: "dvorak-modus-vivendi"
+    back_color: 0x000000
+    text_color: 0xffffff
+    key_back_color: 0x1e1e1e
+    candidate_background: 0x535353
+    hilited_candidate_back_color: 0x00bcff
   "preset_keyboards/rime_ice/import_preset": dvorak
   "preset_keys/+":
     Tab: {label: Tab, send: Tab}
