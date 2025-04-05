@@ -1,3 +1,6 @@
+# -*- coding: utf-8-unix; -*-
+# Trime front-end configuration
+
 patch:
   "preset_keyboards/rime_ice/import_preset": dvorak
   "preset_keyboards/dvorak":
