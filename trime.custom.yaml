@@ -11,7 +11,7 @@
 
 patch:
   "preset_keyboards/rime_ice/import_preset": dvorak
-  preset_keys:
+  "preset_keys/+":
     Tab: {label: Tab, send: Tab}
     Control_L: {label: Ctrl, send: Control_L, functional: false}
     Alt_L: {label: Alt, send: Alt_L, functional: false}
