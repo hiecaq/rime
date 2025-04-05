@@ -66,13 +66,12 @@ patch:
       - {click: 'v', long_click: '^'}
       - {click: 'z', long_click: '_'}
       # break
-      - {click: Shift_L}
+      - {click: Shift_L} # modifiers cannot be put in long_click
       - {click: Alt_L}
+      - {click: Control_L}
       - {click: Keyboard_symbols, long_click: Keyboard_number}
-      - {click: Mode_switch, long_click: Menu}
       - {click: space, long_click: Tab, width: 20}
       - {click: Escape}
-      - {click: Control_L}
-      - {click: BackSpace, width: 10}
-      - {click: Return, composing: Return1, long_click: CommitComment, width: 10}
+      - {click: BackSpace, width: 15}
+      - {click: Return, composing: Return1, long_click: CommitComment, width: 15}
 
