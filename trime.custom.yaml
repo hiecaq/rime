@@ -66,11 +66,13 @@ patch:
       - {click: 'v', long_click: '^'}
       - {click: 'z', long_click: '_'}
       # break
-      - {click: Shift_L, long_click: Alt_L}
+      - {click: Shift_L}
+      - {click: Alt_L}
       - {click: Keyboard_symbols, long_click: Keyboard_number}
       - {click: Mode_switch, long_click: Menu}
-      - {click: space, long_click: Tab, width: 30}
-      - {click: Escape, long_click: Control_L}
-      - {click: BackSpace, long_click: Delete, width: 15}
-      - {click: Return, composing: Return1, long_click: CommitComment, width: 15}
+      - {click: space, long_click: Tab, width: 20}
+      - {click: Escape}
+      - {click: Control_L}
+      - {click: BackSpace, width: 10}
+      - {click: Return, composing: Return1, long_click: CommitComment, width: 10}
 
