@@ -44,18 +44,18 @@ patch:
       - {click: ';', long_click: ':'}
       - {click: ',', long_click: '<'}
       - {click: '.', long_click: '>'}
-      - {click: 'p', long_click: '#'}
+      - {click: 'p', long_click: '&'}
       - {click: 'y', long_click: '|'}
       - {click: 'f', long_click: '\'}
-      - {click: 'g', long_click: '@'}
-      - {click: 'c', long_click: '^'}
+      - {click: 'g', long_click: '#'}
+      - {click: 'c', long_click: '`'}
       - {click: 'r', long_click: '/'}
       - {click: 'l', long_click: '?'}
       # break
       - {click: 'a', long_click: Home }
       - {click: 'o', long_click: select_all }
       - {click: 'e', long_click: End}
-      - {click: 'u', long_click: '`'}
+      - {click: 'u', long_click: '%'}
       - {click: 'i', long_click: copy}
       - {click: 'd', long_click: Left}
       - {click: 'h', long_click: Down}
