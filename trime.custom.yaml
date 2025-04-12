@@ -10,7 +10,7 @@
 #   - Ignore shift locked for Symbol keys
 
 patch:
-  color_scheme: dvorak
+  "style/color_scheme": dvorak
   "preset_color_schemes/dvorak":
     name: "dvorak-modus-vivendi"
     back_color: 0x000000
