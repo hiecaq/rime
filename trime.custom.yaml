@@ -82,4 +82,4 @@ patch:
       - {click: Escape}
       - {click: BackSpace, width: 15}
       - {click: Return, composing: Return1, long_click: CommitComment, width: 15}
-
+  "preset_keyboards/mini/lock": false
