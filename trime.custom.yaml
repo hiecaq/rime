@@ -30,16 +30,16 @@ patch:
     width: 10
     height: 44
     keys:
-      - {click: '7', long_click: '['}
-      - {click: '5', long_click: '{'}
-      - {click: '3', long_click: '}'}
-      - {click: '1', long_click: '('}
-      - {click: '9', long_click: '='}
-      - {click: '0', long_click: '*'}
-      - {click: '2', long_click: ')'}
-      - {click: '4', long_click: '+'}
-      - {click: '6', long_click: ']'}
-      - {click: '8', long_click: '!'}
+      - {click: '[', long_click: '7'}
+      - {click: '{', long_click: '5'}
+      - {click: '}', long_click: '3'}
+      - {click: '(', long_click: '1'}
+      - {click: '=', long_click: '9'}
+      - {click: '*', long_click: '0'}
+      - {click: ')', long_click: '2'}
+      - {click: '+', long_click: '4'}
+      - {click: ']', long_click: '6'}
+      - {click: '!', long_click: '8'}
       # break
       - {click: ';', long_click: ':'}
       - {click: ',', long_click: '<'}
