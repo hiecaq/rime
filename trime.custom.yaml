@@ -10,6 +10,7 @@
 #   - Ignore shift locked for Symbol keys
 
 patch:
+  "style/reset_ascii_mode": true
   "style/color_scheme": dvorak
   "preset_color_schemes/dvorak":
     name: "dvorak-modus-vivendi"
@@ -26,7 +27,8 @@ patch:
   "preset_keyboards/dvorak":
     name: "dvorak"
     author: "hiecaq"
-    ascii_mode: 0
+    ascii_mode: 1
+    reset_ascii_mode: true
     width: 10
     height: 44
     keys:
