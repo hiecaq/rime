@@ -91,3 +91,13 @@ patch:
   "preset_keyboards/number/keys/@11/click": 'KP_1'
   "preset_keyboards/number/keys/@12/click": 'KP_2'
   "preset_keyboards/number/keys/@13/click": 'KP_3'
+  "preset_keyboards/symbols/keys/@39": {click: '。', ascii: '.'}
+  "preset_keyboards/symbols/keys/@40": {click: Shift_L}
+  "preset_keyboards/symbols/keys/@41": {click: Alt_L}
+  "preset_keyboards/symbols/keys/@42": {click: Control_L}
+  "preset_keyboards/symbols/keys/@43": { click: Keyboard_default, long_click: Menu }
+  "preset_keyboards/symbols/keys/@44": { click: space, long_click: Tab, width: 20 }
+  "preset_keyboards/symbols/keys/@45": { click: Escape }
+  "preset_keyboards/symbols/keys/@46": {click: BackSpace, width: 15}
+  "preset_keyboards/symbols/keys/+":
+    - {click: Return, composing: Return1, long_click: CommitComment, width: 15}
