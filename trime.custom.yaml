@@ -85,3 +85,9 @@ patch:
       - {click: BackSpace, width: 15}
       - {click: Return, composing: Return1, long_click: CommitComment, width: 15}
   "preset_keyboards/mini/lock": false
+  "preset_keyboards/number/keys/@1/click": 'KP_7'
+  "preset_keyboards/number/keys/@2/click": 'KP_8'
+  "preset_keyboards/number/keys/@3/click": 'KP_9'
+  "preset_keyboards/number/keys/@11/click": 'KP_1'
+  "preset_keyboards/number/keys/@12/click": 'KP_2'
+  "preset_keyboards/number/keys/@13/click": 'KP_3'
