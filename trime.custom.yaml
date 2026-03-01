@@ -78,7 +78,8 @@ patch:
       - {click: Alt_L}
       - {click: Control_L}
       - {click: Keyboard_symbols, long_click: Keyboard_number}
-      - {click: space, long_click: Tab, width: 20}
+      - {click: space, long_click: Tab, width: 10}
+      - {click: space, long_click: Tab, width: 10} # https://github.com/osfans/trime/issues/1733
       - {click: Escape}
       - {click: BackSpace, width: 15}
       - {click: Return, composing: Return1, long_click: CommitComment, width: 15}
@@ -94,8 +95,9 @@ patch:
   "preset_keyboards/symbols/keys/@41": {click: Alt_L}
   "preset_keyboards/symbols/keys/@42": {click: Control_L}
   "preset_keyboards/symbols/keys/@43": { click: Keyboard_default, long_click: Menu }
-  "preset_keyboards/symbols/keys/@44": { click: space, long_click: Tab, width: 20 }
-  "preset_keyboards/symbols/keys/@45": { click: Escape }
-  "preset_keyboards/symbols/keys/@46": {click: BackSpace, width: 15}
+  "preset_keyboards/symbols/keys/@44": { click: space, long_click: Tab, width: 10 }
+  "preset_keyboards/symbols/keys/@45": { click: space, long_click: Tab, width: 10 }
+  "preset_keyboards/symbols/keys/@46": { click: Escape }
   "preset_keyboards/symbols/keys/+":
+    - {click: BackSpace, width: 15}
     - {click: Return, composing: Return1, long_click: CommitComment, width: 15}
